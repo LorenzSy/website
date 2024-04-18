@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <style>
+        body {
+            background-color: white;
+        }
+
+        .texthead {
+            background-color: darkblue;
+            -webkit-background-clip: text;
+            background-clip: text;
+            text-align: center;
+            color: darkblue;
+        }
+
+        .div1 {
+            background-image: url(about1.jpg);
+            height: 400px;
+            width: 800px;
+            background-color: pink;
+            margin-left: 10px;
+            margin-top: 10px;
+            background-size: contain;
+            border-style: double;
+            border-width: 5px;
+            background-repeat: no-repeat;
+        }
+
+        .div2 {
+            background-image: url(about2.jpg);
+            height: 450px;
+            width: 1000px;
+            background-color: pink;
+            margin-left: 10px;
+            margin-top: 10px;
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            
+        }
+
+        .maindiv {
+            display: flex; 
+            justify-content: center; 
+        }
+
+        .topnav {
+            background-color: white;
+            overflow: hidden;
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .topnav a {
+            color: black;
+            font-size: 20px;
+            padding: 15px 16px;
+            text-decoration: none;
+            text-align: center;
+            float: left;
+            transition-duration: 0.5s;
+        }
+
+        .topnav a:hover {
+            background-color: blue;
+        }
+
+        .header {
+            background-color: darkblue;
+            color: white;
+            text-align: center;
+        }
+
+        .footer1 {
+            background-color: #333;
+            margin-top: 50px;
+            color: white;
+            text-align: center;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+<h1 class="header">College for Research and Technology of Cabanatuan</h1>
+<div class="topnav">
+    <a href="home.html">Home</a>
+    <a href="gallery.html">Gallery</a>
+    <img src="crt logo.png" style="height: 50px; width: 60px;">
+    <a href="about.html">About</a>
+    <a href="#">Logout</a>
+</div>
+
+<h1 class="texthead">Who is CRT?</h1>
+<div class="maindiv">
+    <div class="div1"></div>
+    <div class="div2"></div>
+</div>
+
+<footer class="footer1"> &copy; Copyright 2024 All Rights Reserved CRT creator by Lorenz Andrei</footer>
+</body>
+</html>
